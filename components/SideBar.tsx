@@ -4,13 +4,13 @@ import {  FaMessage } from "react-icons/fa6";
 
 const SideBar = () => {
   return (
-    <div className="w-[200px] h-full bg-white shadow-2xl ">
+    <div className="min-w-[12rem]  bg-white shadow-2xl  overflow-y-scroll scrollbar border h-screen">
         <div className="font-bold text-xl flex items-center justify-center p-2 m-auto">
             
             <h1><span style={{color:'#4880FF'}}>Dash</span>Stack</h1>
             </div>
 
-      <div className="flex flex-col p-5 gap-1">
+      <div className="flex flex-col p-5 gap-1 ">
         <button className="flex items-center gap-2 px-4 py-2 text-sm text-white bg-blue-700 rounded-md">
           <FaClock />
           Dashboard
