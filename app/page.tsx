@@ -46,11 +46,44 @@ const Page = () => {
             <SalesDetails/>
             </div>
           </div>
-          <div className="w-[360px] h-[365px] bg-white shadow-md rounded-md">
-            <h1>Customers</h1>
+          <div className="">
+          <div className="w-[320px] h-[365px] bg-white shadow-md rounded-md mt-10">
+            <h1 className="p-2">Customers</h1>
             <div className="flex flex-col gap-6">
-              <div className="ring-8 max-w-48 py-24 rounded-full ring-blue-100 m-auto mt-6"></div>
-              <div className="flex justify-between">
+              <div className="ring-8 max-w-48 py-20 px-20 rounded-full ring-blue-800 m-auto mt-6"></div>
+              <div className="flex justify-between p-6 text-center">
+                <div className="flex flex-col gap-6">
+                  <span>34,249</span>
+                  <h1>New Customers</h1>
+                </div>
+                <div className="flex flex-col gap-6">
+                  <span>1420</span>
+                  <h1>Repeated</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-[320px] h-[365px] bg-white shadow-md rounded-md mt-10">
+            <h1 className="p-2">Customers</h1>
+            <div className="flex flex-col gap-6">
+              <div className="ring-8 max-w-48 py-20 px-20 rounded-full ring-blue-800 m-auto mt-6"></div>
+              <div className="flex justify-between p-6 text-center">
+                <div className="flex flex-col gap-6">
+                  <span>34,249</span>
+                  <h1>New Customers</h1>
+                </div>
+                <div className="flex flex-col gap-6">
+                  <span>1420</span>
+                  <h1>Repeated</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-[320px] h-[365px] bg-white shadow-md rounded-md mt-10">
+            <h1 className="p-2">Customers</h1>
+            <div className="flex flex-col gap-6">
+              <div className="ring-8 max-w-48 py-20 px-20 rounded-full ring-blue-800 m-auto mt-6"></div>
+              <div className="flex justify-between p-6 text-center">
                 <div className="flex flex-col gap-6">
                   <span>34,249</span>
                   <h1>New Customers</h1>
@@ -63,6 +96,7 @@ const Page = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     
     </>

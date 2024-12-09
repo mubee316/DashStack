@@ -28,11 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-screen w-screen`}
       >
                 <SideBar/>
 
-        <div className="flex-1 ml-[12rem] max-w-full box-border ">
+        <div className="flex-1 ml-[12rem] max-w-full box-border overflow-y-auto">
         <NavBar/>
         {children}
         </div>
