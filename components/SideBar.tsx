@@ -4,7 +4,7 @@ import {  FaMessage } from "react-icons/fa6";
 
 const SideBar = () => {
   return (
-    <div className="min-w-[12rem]  bg-white shadow-2xl  overflow-y-scroll scrollbar border h-screen">
+    <div className="min-w-[12rem]  min-h-full bg-white shadow-2xl  overflow-y-scroll scrollbar border border-red-500 h-screen fixed top-0 left-0">
         <div className="font-bold text-xl flex items-center justify-center p-2 m-auto">
             
             <h1><span style={{color:'#4880FF'}}>Dash</span>Stack</h1>

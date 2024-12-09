@@ -32,7 +32,7 @@ export default function RootLayout({
       >
                 <SideBar/>
 
-        <div className="flex-1 h-full">
+        <div className="flex-1 ml-[12rem] max-w-full box-border ">
         <NavBar/>
         {children}
         </div>

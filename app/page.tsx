@@ -1,5 +1,9 @@
+"use client"
 import React from "react";
+
 import { FaTrademark, FaPerson } from "react-icons/fa6";
+import SalesDetails from "@/components/SalesDetails";
+import DealsDetails from "@/components/DealsDetails";
 
 const Page = () => {
   return (
@@ -35,9 +39,29 @@ const Page = () => {
           </div>
 
           
-          {/* <div className="w-full h-[444px] border border-black mt-10 p-4">
-            <h1>Sales Details</h1>
-          </div> */}
+          <div>
+            <SalesDetails />
+            <DealsDetails />
+            <div className="bg-gradient-to-t from-black to-gray-300">
+            <SalesDetails/>
+            </div>
+          </div>
+          <div className="w-[360px] h-[365px] bg-white shadow-md rounded-md">
+            <h1>Customers</h1>
+            <div className="flex flex-col gap-6">
+              <div className="ring-8 max-w-48 py-24 rounded-full ring-blue-100 m-auto mt-6"></div>
+              <div className="flex justify-between">
+                <div className="flex flex-col gap-6">
+                  <span>34,249</span>
+                  <h1>New Customers</h1>
+                </div>
+                <div className="flex flex-col gap-6">
+                  <span>1420</span>
+                  <h1>Repeated</h1>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     
