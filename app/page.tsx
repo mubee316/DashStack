@@ -11,10 +11,8 @@ const Page = () => {
 
      <>
       <div className="flex flex-col flex-grow mt-20">
-        {/* Content Area */}
-        <div className="flex-grow overflow-y-scroll p-4">
+        <div className="flex-grow  p-4">
           <div className="grid grid-cols-4 gap-4">
-            {/* Stat Cards */}
             {[...Array(4)].map((_, index) => (
               <div
                 key={index}
