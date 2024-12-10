@@ -10,7 +10,7 @@ const Page = () => {
    
 
      <>
-      <div className="flex flex-col flex-grow">
+      <div className="flex flex-col flex-grow mt-20">
         {/* Content Area */}
         <div className="flex-grow overflow-y-scroll p-4">
           <div className="grid grid-cols-4 gap-4">
@@ -46,7 +46,7 @@ const Page = () => {
             <SalesDetails/>
             </div>
           </div>
-          <div className="">
+          <div className=" flex  justify-between">
           <div className="w-[320px] h-[365px] bg-white shadow-md rounded-md mt-10">
             <h1 className="p-2">Customers</h1>
             <div className="flex flex-col gap-6">

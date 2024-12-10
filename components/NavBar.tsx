@@ -4,7 +4,7 @@ import { FaBars,  FaCartArrowDown,  FaSearch } from "react-icons/fa";
 const NavBar = () => {
   return (
     <>
-      <div className="border bg-white h-[70px] w-100%  z-0 px-4 py-3">
+      <div className="border bg-white h-[70px] w-100% fixed top-0 w-full z-10 px-4 py-3">
         <div className="flex items-center  justify-between gap-6 m-auto ">
           <div className="flex items-center gap-4">
         <div className="flex  items-center justify-between  gap-6">
